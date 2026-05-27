@@ -1,0 +1,22 @@
+{
+  "name": "neighborhood-save-box",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local pickup marketplace for same-day fresh food save boxes.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:consumer": "npm run dev --workspace @savebox/consumer-app",
+    "dev:seller": "npm run dev --workspace @savebox/seller-app",
+    "dev:admin": "npm run dev --workspace @savebox/admin-web",
+    "dev:api": "npm run dev --workspace @savebox/api",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f6f1;
+  color: #141815;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 40px 24px;
+}
+
+.header p {
+  color: #2f7d4f;
+  font-size: 13px;
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+
+.header h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 0 0 24px;
+}
+
+.grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.metric {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.metric span {
+  color: #5d6460;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.metric strong {
+  font-size: 28px;
+}
+

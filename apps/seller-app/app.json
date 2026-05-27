@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Save Box Seller",
+    "slug": "savebox-seller",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "saveboxseller",
+    "userInterfaceStyle": "automatic"
+  }
+}
+

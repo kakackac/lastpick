@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Save Box",
+    "slug": "savebox-consumer",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "savebox",
+    "userInterfaceStyle": "automatic"
+  }
+}
+

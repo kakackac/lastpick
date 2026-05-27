@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "moduleResolution": "bundler",
+    "noUncheckedIndexedAccess": true,
+    "paths": {
+      "@savebox/shared": ["packages/shared/src/index.ts"]
+    },
+    "skipLibCheck": true,
+    "strict": true
+  }
+}
+
