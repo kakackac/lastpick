@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Save Box Seller",
-    "slug": "savebox-seller",
+    "name": "LastPick",
+    "slug": "lastpick",
     "version": "0.1.0",
     "orientation": "portrait",
-    "scheme": "saveboxseller",
+    "scheme": "lastpick",
     "userInterfaceStyle": "automatic"
   }
 }

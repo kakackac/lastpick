@@ -18,7 +18,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A["판매자 앱 실행"] --> B["어제와 동일 등록 또는 새 마감박스 등록"]
+    A["모바일 앱에서 사장님 모드 진입"] --> B["어제와 동일 등록 또는 새 마감박스 등록"]
     B --> C["카테고리 선택"]
     C --> D["수량 입력"]
     D --> E["픽업시간 선택"]
@@ -48,4 +48,3 @@ sequenceDiagram
     Seller->>App: Mark pickup completed
     App->>Seller: Weekly settlement
 ```
-

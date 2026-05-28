@@ -2,7 +2,7 @@ import { FlatList, StyleSheet, Text, View } from "react-native";
 import { BoxCard } from "../components/BoxCard";
 import { mockBoxes } from "../data/mockBoxes";
 
-export function HomeScreen() {
+export function ConsumerHomeScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.hero}>

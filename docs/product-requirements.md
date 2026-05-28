@@ -14,7 +14,7 @@
 
 ## MVP Scope
 
-### Consumer App
+### Mobile App: Consumer Mode
 
 - 오늘 픽업 가능한 마감박스 리스트
 - 카테고리 필터
@@ -25,7 +25,7 @@
 - 주문내역
 - 리뷰
 
-### Seller App
+### Mobile App: Seller Mode
 
 - 오늘 판매 현황
 - 마감박스 등록
@@ -58,4 +58,3 @@
 - 판매자 등록 시간 30초 이내
 - 픽업 완료율 95% 이상
 - 첫 구매 후 30일 내 재구매율 30% 이상
-

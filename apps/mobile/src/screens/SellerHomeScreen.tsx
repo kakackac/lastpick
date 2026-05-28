@@ -9,7 +9,7 @@ const quickActions = [
 export function SellerHomeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.eyebrow}>판매자 홈</Text>
+      <Text style={styles.eyebrow}>사장님 모드</Text>
       <Text style={styles.title}>30초 안에 오늘 마감박스를 등록하세요.</Text>
       <View style={styles.summary}>
         <Text style={styles.summaryLabel}>오늘 판매</Text>

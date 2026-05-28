@@ -13,8 +13,7 @@
 ├── apps
 │   ├── api              # Backend API scaffold
 │   ├── admin-web        # Admin dashboard scaffold
-│   ├── consumer-app     # Consumer mobile app scaffold
-│   └── seller-app       # Seller mobile app scaffold
+│   └── mobile           # Unified consumer/seller mobile app scaffold
 ├── docs                 # Product, business, operations, and architecture docs
 ├── packages
 │   └── shared           # Shared TypeScript types/constants
@@ -25,17 +24,17 @@
 ## MVP Priorities
 
 1. 한 동네에 입점 매장 20~30곳 확보
-2. 소비자 앱 첫 화면에 `오늘 픽업 가능한 마감박스` 노출
-3. 판매자 앱에서 `카테고리`, `수량`, `픽업시간`, `가격`만으로 등록
-4. 앱 선결제, QR/주문번호 픽업, 주 1회 판매자 정산
-5. 식품안전 안내, 알레르기 안내, 자동 품절, 자동 판매 종료
+2. 모바일 앱 첫 화면에 소비자/사장님 모드 전환 제공
+3. 소비자 모드는 `오늘 픽업 가능한 마감박스`를 먼저 노출
+4. 사장님 모드는 `카테고리`, `수량`, `픽업시간`, `가격`만으로 등록
+5. 앱 선결제, QR/주문번호 픽업, 주 1회 판매자 정산
+6. 식품안전 안내, 알레르기 안내, 자동 품절, 자동 판매 종료
 
 ## Suggested Tech Stack
 
 | Area | Stack |
 |---|---|
-| Consumer app | React Native + Expo |
-| Seller app | React Native + Expo |
+| Mobile app | React Native + Expo |
 | Admin web | Next.js |
 | API | NestJS or Fastify |
 | Database | PostgreSQL |
@@ -51,8 +50,7 @@ Dependencies are not installed yet. After GitHub connection and package installa
 
 ```bash
 npm install
-npm run dev:consumer
-npm run dev:seller
+npm run dev:mobile
 npm run dev:admin
 npm run dev:api
 ```
@@ -67,4 +65,3 @@ npm run dev:api
 - [Operations Policy](docs/operations-policy.md)
 - [MVP Roadmap](docs/mvp-roadmap.md)
 - [GitHub Setup](docs/github-setup.md)
-

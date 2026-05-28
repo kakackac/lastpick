@@ -17,13 +17,17 @@ flowchart LR
 
 ## Apps
 
-### Consumer App
+### Mobile App
 
-React Native + Expo 기반 모바일 앱입니다. 첫 화면은 지도보다 `오늘 픽업 가능한 마감박스` 리스트가 우선입니다.
+React Native + Expo 기반 단일 모바일 앱입니다. 로그인 후 역할에 따라 소비자 모드와 사장님 모드를 사용할 수 있고, MVP에서는 상단 모드 전환으로 두 흐름을 확인합니다.
 
-### Seller App
+### Consumer Mode
 
-React Native + Expo 기반 판매자 앱입니다. 핵심은 등록 시간을 30초 이하로 만드는 것입니다.
+첫 화면은 지도보다 `오늘 픽업 가능한 마감박스` 리스트가 우선입니다.
+
+### Seller Mode
+
+핵심은 등록 시간을 30초 이하로 만드는 것입니다.
 
 ### Admin Web
 
@@ -54,4 +58,3 @@ Next.js 기반 관리자 페이지입니다. 입점, 주문, 결제, 정산, CS,
 3. POS CSV import
 4. POS/API partner integration
 5. Franchise and convenience store PoC
-

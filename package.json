@@ -8,8 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:consumer": "npm run dev --workspace @savebox/consumer-app",
-    "dev:seller": "npm run dev --workspace @savebox/seller-app",
+    "dev:mobile": "npm run dev --workspace @savebox/mobile",
     "dev:admin": "npm run dev --workspace @savebox/admin-web",
     "dev:api": "npm run dev --workspace @savebox/api",
     "typecheck": "npm run typecheck --workspaces --if-present",
@@ -19,4 +18,3 @@
     "node": ">=20"
   }
 }
-
